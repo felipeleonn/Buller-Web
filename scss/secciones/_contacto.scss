@@ -1,0 +1,85 @@
+  // CONTACT INFO - MOBILE FIRST
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  
+  .send-message-cta {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: solid 1px;
+    margin-bottom: 5em;
+    border-radius: .2em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    transition: .2s;
+    cursor: pointer;
+  
+    &:hover {
+      color: white;
+      background-color: rgb(0, 0, 0);
+    }
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
+  nav.menu-btn {
+    display: block;
+  }
+
+  .container-contacto {
+    margin-top: 7em;
+  }
+
+  .contact-section {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  
+  // CONTACT - DESKTOP
+  @media only screen and (min-width: 1200px) {
+    .contact-section {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .contact-left {
+      max-width: 500px;
+    }
+  
+    .contact-right {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 45%;
+      height: 100%;
+  
+      iframe {
+        height: 100%;
+      }
+   }
+
+  }

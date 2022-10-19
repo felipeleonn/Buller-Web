@@ -1,0 +1,311 @@
+.beer_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+.beer_container .beer_container_text {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.beer_container .price {
+  margin-bottom: 0.5em;
+}
+
+.button_cart {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.button_cart:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.send-message-cta {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: solid 1px;
+  margin-bottom: 5em;
+  border-radius: 0.2em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.send-message-cta:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+.container-contacto {
+  margin-top: 7em;
+}
+
+.contact-section {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-section {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .contact-left {
+    max-width: 500px;
+  }
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+  .contact-right iframe {
+    height: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+.hero-img {
+  background: url("../img/1.webp");
+  background-size: cover;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  -webkit-animation: introLoad 2s forwards;
+          animation: introLoad 2s forwards;
+}
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  border-bottom-left-radius: 0.2em;
+  width: 50%;
+  z-index: 2;
+  transform: translateX(100%);
+  transition: tranform 0.5s ease-in-out;
+}
+nav ul {
+  list-style-type: none;
+  margin-top: 8em;
+}
+nav ul a {
+  color: black;
+  padding: 1em 2em;
+  display: block;
+  transition: 0.15s;
+  font-weight: bold;
+}
+nav ul a:hover {
+  cursor: pointer;
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 1.5em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 200px;
+  margin-left: 2em;
+}
+header svg {
+  width: 2.5em;
+  margin-right: 2em;
+  margin-bottom: 0.7em;
+}
+
+section.arrow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45em;
+}
+section.arrow .down-arrow {
+  width: 80px;
+  animation: moveArrow 1s alternate-reverse infinite;
+}
+
+section.hero {
+  text-align: center;
+  vertical-align: middle;
+}
+section.hero .headline {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+section.hero .button {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+section.hero .button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.more-info {
+  text-align: center;
+  margin-top: 8em;
+}
+.more-info svg {
+  width: 8em;
+  margin-bottom: 1em;
+}
+.more-info .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.2em;
+}
+.more-info .info {
+  margin-top: 6em;
+}
+
+footer {
+  margin-top: 4em;
+  padding-top: 2em;
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+}
+footer .head {
+  font-weight: bold;
+}
+footer .info {
+  margin-bottom: 1em;
+}
+footer .svg-footer {
+  width: 20px;
+}
+
+.bottom-container a img {
+  width: 300px;
+}
+.bottom-container p {
+  font-size: 0.8rem;
+  padding: 2em;
+  padding-top: 0;
+}
+
+.open-nav {
+  transform: translateX(0%);
+  transition: 1s;
+}
+
+@-webkit-keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@-webkit-keyframes moveArrow {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes moveArrow {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=main.css.map */
