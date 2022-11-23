@@ -14,7 +14,6 @@
     width: 100%;
     height: 100vh;
     z-index: -1;
-    animation: introLoad 2s forwards;
   }
   p.title {
     color: rgb(224, 224, 224);
@@ -24,7 +23,7 @@
   }
   .youtube-video {
     width: 100%;
-    height: auto;
+    height: 400px;
     margin-bottom: 2rem;
   }
   }
@@ -56,7 +55,7 @@ div.button-nosotros {
     border: 1px solid white;
     border-radius: 4px;
     transition: .3s;
-    margin-bottom: 8rem;
+    margin-bottom: 0rem;
   
     &:hover {
       background-color: white;
@@ -86,20 +85,23 @@ div.button-nosotros {
     flex-direction: column;
     align-items: center;
   
-  .feature {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
+    .feature {
+      display: flex;
+      align-items: center;
+      max-width: 1200px;
 
-    img {
-      width: 50%;
+      img {
+        width: 50%;
+      }
     }
   }
-}
+  .footer-nosotros {
+    margin-top: 0px;
+  }
 
-.footer-nosotros {
-  margin-top: 0px;
-}
+  .button-nosotros {
+    margin-bottom: 8rem;
+  }
 }
 
 
@@ -112,7 +114,8 @@ div.button-nosotros {
     width: 100%;
     height: 100vh;
     z-index: -1;
-    animation: introLoad 2s forwards;
   }
-
+  .button-nosotros {
+    margin-bottom: 11rem;
+  }
 }

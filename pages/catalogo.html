@@ -12,6 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../img/logobuller.png" />
     <link rel="stylesheet" href="../scss/main.css" />
+    <!-- Animate.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Catálogo | Buller</title>
   </head>
   <body id="top">
@@ -59,21 +64,33 @@
     <main class="main_catalogo">
       <section class="catalogo_container">
         <div class="beer_container">
-          <img src="../img/Lata1.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata1.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">JUICY PALE ALE</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata2.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata2.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">HEFE</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata3.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata3.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">HONEY</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
@@ -82,21 +99,33 @@
 
       <section class="catalogo_container">
         <div class="beer_container">
-          <img src="../img/Lata4.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata4.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">IPA</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata5.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata5.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">GOLDEN ALE</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata6.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata6.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">AMBER ALE</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
@@ -105,21 +134,33 @@
 
       <section class="catalogo_container">
         <div class="beer_container">
-          <img src="../img/Lata7.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata7.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">STOUT</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata8.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata8.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">ALL IN</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
         </div>
 
         <div class="beer_container">
-          <img src="../img/Lata9.png" alt="lata de cerveza" />
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="../img/Lata9.png"
+            alt="lata de cerveza"
+          />
           <p class="beer_container_text">IPL</p>
           <p class="price">500$</p>
           <p class="button_cart">COMPRAR</p>
@@ -238,6 +279,10 @@
       close.addEventListener("click", () => {
         nav.classList.remove("open-nav");
       });
+    </script>
+    <script src="../js/wow.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>

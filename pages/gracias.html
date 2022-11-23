@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/logobuller.png" />
+    <link rel="stylesheet" href="../scss/main.css" />
+    <title>Gracias | Buller</title>
+  </head>
+  <body class="body-gracias">
+    <section class="gracias-container">
+      <div>
+        <h1 class="gracias">GRACIAS</h1>
+        <a href="../index.html">Volver</a>
+      </div>
+    </section>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const close = document.querySelector(".close");
+      const nav = document.querySelector("nav");
+
+      menu.addEventListener("click", () => {
+        nav.classList.add("open-nav");
+      });
+
+      close.addEventListener("click", () => {
+        nav.classList.remove("open-nav");
+      });
+    </script>
+  </body>
+</html>
