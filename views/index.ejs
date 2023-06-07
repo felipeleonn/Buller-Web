@@ -70,19 +70,7 @@
 
     <%- include('./partials/footer')%>
 
-    <script>
-      const menu = document.querySelector(".menu");
-      const close = document.querySelector(".close");
-      const nav = document.querySelector("nav");
-
-      menu.addEventListener("click", () => {
-        nav.classList.add("open-nav");
-      });
-
-      close.addEventListener("click", () => {
-        nav.classList.remove("open-nav");
-      });
-    </script>
+    <script src="../js/app.js"></script>
     <script src="./js/wow.js"></script>
     <script>
       new WOW().init();
